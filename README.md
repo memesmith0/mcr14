@@ -1,3 +1,4 @@
+#!/bin/sh
 john morris beck
 
 https://github.com/memesmith0/mcr14
