@@ -26,6 +26,11 @@ https://en.wikipedia.org/wiki/POSIX
 
 https://pubs.opengroup.org/onlinepubs/9799919799/
 
+
+
+
+
+
 an introduction to awk:
 https://www.gnu.org/software/gawk/manual/gawk.html
 
