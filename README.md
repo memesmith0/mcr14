@@ -221,6 +221,38 @@ echo "you may now run mcr14 by typing: sh mcr14sh";
 ######################################################################################
 usage
 
+some code;
+some code;
+some code;
+m
+an awk function in one line
+a line of awk code to go in the main awk program
+more x code. now a new macro is applied to each line.
+more macro code
+more macro code
+
+######################################################################################
+inteactive shell prompt example
+
+mrc3sh;
+echo hello
+echo goodbye
+echo press q to quit top
+top
+#in a couple of lines the line will be left blank intentionlly do not skip typing this blank line
+m
+o="echo hello";
+
+echo goodbye
+echo anything
+top
+quit
+exit
+q
+ctrl + c
+ctrl + d
+ctrl + z
+
 
 
 
