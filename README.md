@@ -253,8 +253,15 @@ ctrl + c
 ctrl + d
 ctrl + z
 
+######################################################################################
+cat example
 
+mcr3sh;
+m
+o=$0;
 
-
-
+echo hello
+echo goodbye
+type anything
+a8j9v8asjo8jsao8jf8osjaf
 
