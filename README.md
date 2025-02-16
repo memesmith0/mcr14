@@ -11,5 +11,6 @@
 #
 #THIS SOFTWARE.
 anymcr(){ if [ "$2" = "" ] ; then sh -c "$1" | sh -c "$1"; else sh -c "$1"|sh -c "$1"|sh -c "$2">&2; fi;};
-mcr14(){ anymcr "(unset c f;while read -r i;do if [ \"\$i\" = m ] ;then read -r i;c=\"\$c\$i\";read -r i;f=\"\$f\$i\";else echo \"\$i\"|awk \"\$f{o=\\\$0;\$c print o}\";fi;done;)" "$1";};
-mcr14 "$@";
+mcr14(){ (a="(unset c f;while read -r i;do if [ \"\$i\" = m ] ;then read -r i;c=\"\$c\$i\";read -r i;f=\"\$f\$i\";else echo \"\$i\"|awk \"\$f{o=\\\$0;\$c print o}\";fi;done;)";if [ "$2" = "" ] ;then if  [ "$1" = "" ] ;then anymcr "$a"; else anymcr "$1"; fi; elif [ "$1" = "" ] ; then anymcr "$a" "$2"; else anymcr "$1" "$2"; fi;)};
+mcr14sh(){ mcr14 "" "sh";};
+mcr14sh "$@";
