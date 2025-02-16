@@ -10,6 +10,6 @@
 #RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
 #
 #THIS SOFTWARE.
-anymcr(){ if [ "$2" ] ; then sh -c "$1"|sh -c "$1"|sh -c "$2">&2; else sh -c "$1" | sh -c "$1"; fi;};
+anymcr(){ if [ "$2" = "" ] ; then sh -c "$1" | sh -c "$1"; else sh -c "$1"|sh -c "$1"|sh -c "$2">&2; fi;};
 mmcr14(){ anymcr "(unset c f;while read -r i;do if [ \"\$i\" = m ] ;then read -r i;c=\"\$c\$i\";read -r i;f=\"\$f\$i\";else echo \"\$i\"|awk \"\$f{o=\\\$0;\$c print o}\";fi;done;)" "$2";};
 mmcr14 "$@";
