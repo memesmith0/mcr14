@@ -17,6 +17,7 @@ https://github.com/memesmith0/mcr14
 mcr14 - tiny posix macros - we implement syntax so you don't have to
 
 mcr14 is a prototype for an advanced macro system where the macros have macros.
+it adds macros to nearly every programming language
 
 ######################################################################################
 
