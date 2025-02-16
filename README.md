@@ -13,13 +13,17 @@ mcr14 is a prototype for an advanced macro system where the macros have macros.
 5. if I find I want to create my own macro system instead, mcr14 supports this
 
 try mcr13 yourself:
+
 https://www.busybox.net/live_bbox/live_bbox.html
+
 https://replit.com/languages/bash
 
 intro to code:
+
 https://www.khanacademy.org/
 
 intro to sh:
+
 https://mywiki.wooledge.org/FullBashGuide
 
 https://en.wikipedia.org/wiki/POSIX
