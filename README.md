@@ -23,10 +23,12 @@ intro to sh:
 https://mywiki.wooledge.org/FullBashGuide
 
 https://en.wikipedia.org/wiki/POSIX
+
 https://pubs.opengroup.org/onlinepubs/9799919799/
 
 an introduction to awk:
 https://www.gnu.org/software/gawk/manual/gawk.html
+
 https://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing-ebook/dp/B0CCJ1N4X3
 
 
