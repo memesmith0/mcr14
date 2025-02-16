@@ -21,6 +21,7 @@ https://www.khanacademy.org/
 
 intro to sh:
 https://mywiki.wooledge.org/FullBashGuide
+
 https://en.wikipedia.org/wiki/POSIX
 https://pubs.opengroup.org/onlinepubs/9799919799/
 
